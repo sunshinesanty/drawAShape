@@ -1,0 +1,3 @@
+C:\Santosh\GitHub\drawAShape\Rhipe.Santoshkumar.TechnicalResponse\Rhipe.Santoshkumar.TechnicalResponse.Test\obj\Debug\Rhipe.Santoshkumar.TechnicalResponse.Test.csprojResolveAssemblyReference.cache
+C:\Santosh\GitHub\drawAShape\Rhipe.Santoshkumar.TechnicalResponse\Rhipe.Santoshkumar.TechnicalResponse.Test\obj\Debug\Triangle.Test.dll
+C:\Santosh\GitHub\drawAShape\Rhipe.Santoshkumar.TechnicalResponse\Rhipe.Santoshkumar.TechnicalResponse.Test\obj\Debug\Triangle.Test.pdb

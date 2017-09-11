@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  margin:auto;
+  width: 50%;
+}
+
+.triangleContainer{
+  margin: auto;
+  width: 100%;
+}
+
+.triangleLabel{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+ }
+
+ .triangleSuccess {
+  font-weight: bold;
+  color: green;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}

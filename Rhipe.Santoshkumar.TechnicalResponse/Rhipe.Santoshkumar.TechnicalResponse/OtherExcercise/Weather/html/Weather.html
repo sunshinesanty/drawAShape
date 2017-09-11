@@ -1,0 +1,21 @@
+﻿
+<div class="weather-container">
+    <div class="weather-icon{{conCode}}"></div>
+    <div class="temperature-container">
+        <div class="day" ng-class="{hide: $index==0}"></div>
+        <span class="temperature">
+            {{maxTemp}} &deg;
+        </span>
+        <sup>{{minTemp}} &deg;</sup>
+    </div>
+</div>
+<div class="weather-container">
+    <div class="weather-icon{{f1Code}}"></div>
+    <div class="temperature-container">
+        <div class="day" ng-class="{hide: $index==0}">{{f1WeekDay}}</div>
+        <span class="temperature">
+            {{maxf1Temp}} &deg;
+        </span>
+        <sup>{{minf1Temp}} &deg;</sup>
+    </div>
+</div>

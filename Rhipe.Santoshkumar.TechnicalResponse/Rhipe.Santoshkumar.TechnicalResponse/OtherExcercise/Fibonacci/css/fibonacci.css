@@ -1,0 +1,16 @@
+﻿.fiboWidth {
+    width: calc(100vw);
+    -webkit-animation: reducetime 2s;
+    animation: reducetime 2s;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: #0f4075;
+}
+ @keyframes reducetime {
+ 0% {width: 0;}
+100% { width: calc(100vw); }
+}

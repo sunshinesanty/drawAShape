@@ -1,0 +1,20 @@
+﻿<div class="btn-group" dropdown>
+    <div class="dropdown-toggle" dropdown-toggle>
+        <span ng-bind="ngModel.name || default"></span>
+        <span class="glyphicon glyphicon-chevron-down"></span>
+    </div>
+    <!-- dropdown items -->
+    <ul class="dropdown-menu" role="menu">
+        <li ng-repeat="g in items">
+            <h4 style="margin-left:20px;"
+                ng-bind="g.group"></h4>
+            <ul class="weather-item-list">
+                <li ng-repeat="c in g.cities | orderBy:['order','name']">
+                    <a href="#"
+                       ng-bind="c.name"
+                       ng-click="select(c)"></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

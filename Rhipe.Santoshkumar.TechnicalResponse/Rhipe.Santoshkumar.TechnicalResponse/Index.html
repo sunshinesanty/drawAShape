@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Santoshkumar' Evocate Technical response</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link href="FrontEnd/build/static/css/main.css" rel="stylesheet" />
+    <link href="OtherExcercise/Fibonacci/css/fibonacci.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Hello To Traingle world</h1>
+    <div id="traingleFinder" style="clear:both"></div>
+    <div id="fibonacciSlider" style="clear:both;padding: 20px 0;">
+        <div class="row">
+            <div class="form-group col-sm-6">
+                <label for="seriesLimit">   Nth number in series:</label>
+                <input id="seriesLimit"
+                       type="text"
+                       value=""
+                       className="form-control"
+                       title="Only numbers allowed"
+                       maxLength="4"
+                       onChange={this.handleInputChange} />
+            </div>
+            <div class="col-sm-6">
+                <button type="button" className="btn btn-default" id="btnFiboGenerator">Generate Series</button>
+            </div>
+        </div>
+        <div id="fSeries" style="margin: auto;"></div>
+    </div>
+    <script src="FrontEnd/build/static/js/main.js" type="text/javascript"></script>
+    <script src="OtherExcercise/Fibonacci/js/fibonacci.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        document.getElementById('btnFiboGenerator').onclick = onFibonaciSubmit;
+    </script>
+</body>
+</html>
